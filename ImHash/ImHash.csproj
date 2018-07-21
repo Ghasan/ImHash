@@ -5,7 +5,7 @@
     <Version>0.1.0-beta</Version>
     <Authors>Ghasan Al-Sakkaf</Authors>
     <Copyright>MIT</Copyright>
-    <Description>A simple image hasher for comparison of similarity.</Description>
+    <Description>An image hasher for comparing the similarity between images.</Description>
     <PackageLicenseUrl>https://github.com/Ghasan/ImHash/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Ghasan/ImHash</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Ghasan/ImHash</RepositoryUrl>
