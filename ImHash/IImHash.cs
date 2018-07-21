@@ -1,4 +1,4 @@
-﻿namespace ImHash.Core
+﻿namespace ImHash
 {
     public interface IImHash
     {

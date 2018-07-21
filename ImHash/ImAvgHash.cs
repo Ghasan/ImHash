@@ -4,16 +4,16 @@ using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Processing.Filters;
 using SixLabors.ImageSharp.Processing.Transforms;
 
-namespace ImHash.Core
+namespace ImHash
 {
-    public class ImDiffHash : IImHash
+    public class ImAvgHash : IImHash
     {
         private const int WIDTH = 8;
         private const int HEIGHT = 8;
 
         private readonly int TOLERANCE;
 
-        public ImDiffHash(int tolerance)
+        public ImAvgHash(int tolerance)
         {
             TOLERANCE = tolerance;
         }
@@ -30,26 +30,25 @@ namespace ImHash.Core
                     })
                     .Grayscale());
 
+                double avgLuminance = 0;
+
+                for (int i = 0; i < HEIGHT; i++)
+                {
+                    for (int j = 0; j < WIDTH; j++)
+                    {
+                        avgLuminance += Luminance(image[i, j]);
+                    }
+                }
+
+                avgLuminance /= WIDTH * HEIGHT;
+
                 var hash = new bool[HEIGHT * WIDTH];
 
                 for (int i = 0; i < HEIGHT; i++)
                 {
                     for (int j = 0; j < WIDTH; j++)
                     {
-                        if (i == 0 && j == 0)
-                        {
-                            hash[0] = false;
-                            continue;
-                        }
-
-                        if (j == 0)
-                        {
-                            hash[i * HEIGHT + j] = Luminance(image[i, j]) > Luminance(image[i - 1, WIDTH - 1]);
-                        }
-                        else
-                        {
-                            hash[i * HEIGHT + j] = Luminance(image[i, j]) > Luminance(image[i, j - 1]);
-                        }
+                        hash[i * HEIGHT + j] = Luminance(image[i, j]) > avgLuminance;
                     }
                 }
 

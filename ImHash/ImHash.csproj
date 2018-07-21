@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.1.0-beta</Version>
+    <Authors>Ghasan Al-Sakkaf</Authors>
+    <Copyright>MIT</Copyright>
+    <Description>A simple image hasher for comparison of similarity.</Description>
+    <PackageLicenseUrl>https://github.com/Ghasan/ImHash/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Ghasan/ImHash</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ghasan/ImHash</RepositoryUrl>
+    <PackageTags>image,hash</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0004" />
+  </ItemGroup>
+
+</Project>

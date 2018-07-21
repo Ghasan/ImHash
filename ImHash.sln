@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImHash.Core", "ImHash.Core\ImHash.Core.csproj", "{75190BD8-B8BB-4C78-B056-4E3F3DC39A16}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImHash.Console", "ImHash.Console\ImHash.Console.csproj", "{077F178B-6C2E-40E7-895C-B3CD2AFF4B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImHash", "ImHash\ImHash.csproj", "{13D01F24-B99E-401D-AE2D-98AF9378829A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{75190BD8-B8BB-4C78-B056-4E3F3DC39A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75190BD8-B8BB-4C78-B056-4E3F3DC39A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75190BD8-B8BB-4C78-B056-4E3F3DC39A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75190BD8-B8BB-4C78-B056-4E3F3DC39A16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{077F178B-6C2E-40E7-895C-B3CD2AFF4B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{077F178B-6C2E-40E7-895C-B3CD2AFF4B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{077F178B-6C2E-40E7-895C-B3CD2AFF4B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{077F178B-6C2E-40E7-895C-B3CD2AFF4B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D01F24-B99E-401D-AE2D-98AF9378829A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D01F24-B99E-401D-AE2D-98AF9378829A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D01F24-B99E-401D-AE2D-98AF9378829A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D01F24-B99E-401D-AE2D-98AF9378829A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
