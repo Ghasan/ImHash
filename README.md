@@ -5,5 +5,5 @@ A simple image hasher for comparison of similarity inspired by: https://github.c
 Coming soon.
 
 # Installation
-     Install-Package ImHash -Version 0.1.0-beta 
+     Install-Package ImHash
 https://www.nuget.org/packages/ImHash/
