@@ -1,5 +1,5 @@
 # ImHash
-A simple image hasher for comparison of similarity inspired by: https://github.com/jenssegers/imagehash.
+ An .NET image hasher library for comparing the similarity between images using perceptual hash. Inspired by: https://github.com/jenssegers/imagehash.
 
 # Documenation
 Coming soon.
