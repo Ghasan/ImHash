@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.1.1-beta</Version>
+    <Version>0.1.2-beta</Version>
     <Authors>Ghasan Al-Sakkaf</Authors>
     <Copyright>MIT</Copyright>
     <Description>An image hasher for comparing the similarity between images.</Description>
     <PackageLicenseUrl>https://github.com/Ghasan/ImHash/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Ghasan/ImHash</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Ghasan/ImHash</RepositoryUrl>
-    <PackageTags>image,hash</PackageTags>
+    <PackageTags>perceptual,hash,image</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
