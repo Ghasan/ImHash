@@ -2,7 +2,14 @@
  An .NET image hasher library for comparing the similarity between images using perceptual hash. Inspired by: https://github.com/jenssegers/imagehash.
 
 # Documenation
-Coming soon.
+```csharp
+int tolerance = 8;
+avgHasher = new ImAvgHash(tolerance);
+diffHasher = new ImDiffHash(tolerance);
+
+bool avgHasherResult = new ImAvgHash(tolerance);
+bool diffHasherResult = new ImDiffHash(tolerance);
+```
 
 # Installation
      Install-Package ImHash
