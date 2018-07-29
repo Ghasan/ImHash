@@ -14,3 +14,6 @@ bool diffHasherResult = new ImDiffHash(tolerance);
 # Installation
      Install-Package ImHash
 https://www.nuget.org/packages/ImHash/
+
+# Explanation
+https://www.linkedin.com/pulse/imhash-imhasher-ghasan-al-sakkaf/
